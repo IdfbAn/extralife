@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cs8l61ogc0qsb"]
+
+[ext_resource type="Script" uid="uid://b3t2s316tykkp" path="res://scripts/game.gd" id="1_80nbo"]
+[ext_resource type="PackedScene" uid="uid://bxlss0cp6drbr" path="res://scenes/main_interface.tscn" id="2_e2o6t"]
+
+[node name="Game" type="Node" unique_id=1323083358]
+script = ExtResource("1_80nbo")
+
+[node name="MainInterface" parent="." unique_id=654514642 instance=ExtResource("2_e2o6t")]
