@@ -11,6 +11,26 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_7qx7d")
 
+[node name="You" type="Label" parent="." unique_id=497169374]
+layout_mode = 0
+offset_right = 109.0
+offset_bottom = 45.0
+theme_override_font_sizes/font_size = 32
+text = "?, age ?"
+
+[node name="Parents" type="Label" parent="." unique_id=1677424288]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -180.0
+offset_bottom = 71.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 24
+text = "Mother: ?, age ?
+Father: ?, age ?"
+horizontal_alignment = 2
+
 [node name="AgeUp" type="Button" parent="." unique_id=36375087]
 layout_mode = 1
 anchors_preset = 8
@@ -26,26 +46,6 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 48
 text = "Age up"
-
-[node name="You" type="Label" parent="." unique_id=2096740680]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-theme_override_font_sizes/font_size = 32
-text = "?, age ?"
-
-[node name="Parents" type="Label" parent="." unique_id=1264930351]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -180.0
-offset_bottom = 71.0
-grow_horizontal = 0
-theme_override_font_sizes/font_size = 24
-text = "Mother: ?, age ?
-Father: ?, age ?"
-horizontal_alignment = 2
 
 [node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=750170642]
 layout_mode = 0
